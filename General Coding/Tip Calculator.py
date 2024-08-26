@@ -1,0 +1,6 @@
+print("Hi, welcome to the tip calculator")
+cost =input("How much did your meal cost")
+tip = input("How much would you like to tip?")
+people = input("How many people are you splitting this among")
+finCost=float(cost)*(float(tip)/100+1)/float(people)
+print(f"Each person should pay {round(finCost, 2)}")
